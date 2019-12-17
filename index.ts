@@ -1,4 +1,4 @@
-export default function split_non_numeric(str: string): string[] {
+function split(str: string): string[] {
     let nonNumericValue: string = '';
     let numericValue: string = '';
     const intValue: number = parseInt(str, 10);
@@ -19,3 +19,5 @@ export default function split_non_numeric(str: string): string[] {
 
     return [numericValue, nonNumericValue];
 }
+
+export = { split };
