@@ -15,23 +15,15 @@ https://stackoverflow.com/questions/59368077/split-string-into-array-on-first-no
 ```
 ## 3. Make use (Examples)
 ```
-    const firstString = "20pt10";
-
-    console.log(splitNumeric(alphaNumericString));
+    console.log(splitNumeric("20pt10"));
     // ['20', 'pt10']
-
-    const secondString = "pt10";
     
-    console.log(splitNumeric(secondString));
+    console.log(splitNumeric("pt10"));
     // ['', 'pt10']
 
-    const thirdString = "01";
-
-    console.log(splitNumeric(thirdString));
+    console.log(splitNumeric("01"));
     // ['01', '']
 
-    const fourthString = "300,5";
-
-    console.log(splitNumeric(fourthString));
+    console.log(splitNumeric("300,5"));
     // ['300', ',5']
 ```
