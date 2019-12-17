@@ -11,7 +11,7 @@ https://stackoverflow.com/questions/59368077/split-string-into-array-on-first-no
     import { split as splitNumeric } from 'split-numeric';
 
     // Older versions
-    const splitNumeric = require('split-numeric).split;
+    const splitNumeric = require('split-numeric').split;
 ```
 ## 3. Make use (Examples)
 ```
